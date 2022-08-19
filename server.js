@@ -11,6 +11,10 @@ app.use(
   })
 )
 
+app.get("/", (req, res) => {
+   res.redirect("http://bloqfin.com")
+})
+
 app.post("/1/create-checkout-session", async (req, res) => {
     
 
