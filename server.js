@@ -11,7 +11,7 @@ app.use(
   })
 )
 
-app.get("/where", (req, res) => {
+app.get("/", (req, res) => {
    res.status(301).redirect("http://bloqfin.com")
 }) 
 
