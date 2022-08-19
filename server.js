@@ -62,6 +62,7 @@ app.post("/1/create-checkout-session", async (req, res) => {
 })
 
 
-console.log("Server 5000 ON")
+console.log("Server ON")
 
-app.listen(5000)
+const PORT = process.env.PORT || 8081
+app.listen(PORT)
