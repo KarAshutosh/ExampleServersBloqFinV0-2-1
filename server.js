@@ -15,6 +15,16 @@ app.get("/", (req, res) => {
    res.status(301).redirect("http://bloqfin.com")
 }) 
 
+app.get("/1", (req, res) => {
+   res.status(301).redirect("http://bloqfin.com")
+}) 
+
+app.post("/", (req, res) => {
+   res.status(301).redirect("http://bloqfin.com")
+}) 
+
+
+
 app.post("/1/create-checkout-session", async (req, res) => {
     
 
